@@ -1,0 +1,4 @@
+{
+  "env": "prod",
+  "snowflake_connection_id": "snowflake_prod_conn"
+}

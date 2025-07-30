@@ -1,0 +1,15 @@
+[
+  {
+    "conn_id": "snowflake_prod_conn",
+    "conn_type": "snowflake",
+    "schema": "PROD_SCHEMA",
+    "login": "PROD_USER",
+    "password": "ProdUser@123",
+    "extra": {
+      "account": "WWWRZOD-ZM46186",
+      "warehouse": "PROD_WH",
+      "database": "PROD_DB",
+      "role": "PROD_ROLE"
+    }
+  }
+]

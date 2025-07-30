@@ -1,0 +1,29 @@
+[2025-07-02T07:49:12.295+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: print_top_employees_dag.print_top_5_employees manual__2025-07-02T07:49:10.922327+00:00 [queued]>
+[2025-07-02T07:49:12.300+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: print_top_employees_dag.print_top_5_employees manual__2025-07-02T07:49:10.922327+00:00 [queued]>
+[2025-07-02T07:49:12.300+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-02T07:49:12.308+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): print_top_5_employees> on 2025-07-02 07:49:10.922327+00:00
+[2025-07-02T07:49:12.312+0000] {standard_task_runner.py:60} INFO - Started process 267 to run task
+[2025-07-02T07:49:12.314+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'print_top_employees_dag', 'print_top_5_employees', 'manual__2025-07-02T07:49:10.922327+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/fetch_snowflake_table_data_dag.py', '--cfg-path', '/tmp/tmpeg5apwom']
+[2025-07-02T07:49:12.316+0000] {standard_task_runner.py:88} INFO - Job 31: Subtask print_top_5_employees
+[2025-07-02T07:49:12.344+0000] {task_command.py:423} INFO - Running <TaskInstance: print_top_employees_dag.print_top_5_employees manual__2025-07-02T07:49:10.922327+00:00 [running]> on host 247884b7e430
+[2025-07-02T07:49:12.410+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='print_top_employees_dag' AIRFLOW_CTX_TASK_ID='print_top_5_employees' AIRFLOW_CTX_EXECUTION_DATE='2025-07-02T07:49:10.922327+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-02T07:49:10.922327+00:00'
+[2025-07-02T07:49:12.421+0000] {base.py:83} INFO - Using connection ID 'snowflake_dev_conn' for task execution.
+[2025-07-02T07:49:12.422+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.2.0-26-generic-x86_64-with-glibc2.34
+[2025-07-02T07:49:12.422+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-07-02T07:49:14.571+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:221 UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-07-02T07:49:14.571+0000] {cursor.py:1028} INFO - query: [SELECT * FROM DEV_DB.DEV_SCHEMA.EMPLOYEE ORDER BY EMP_ID LIMIT 5;]
+[2025-07-02T07:49:14.807+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-02T07:49:14.807+0000] {cursor.py:1205} INFO - Number of results in first chunk: 5
+[2025-07-02T07:49:14.811+0000] {connection.py:718} INFO - closed
+[2025-07-02T07:49:14.955+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2025-07-02T07:49:15.171+0000] {fetch_snowflake_table_data_dag.py:34} INFO - 🎯 Top 5 Employee Records:
+[2025-07-02T07:49:15.179+0000] {fetch_snowflake_table_data_dag.py:35} INFO -  EMP_ID FIRST_NAME LAST_NAME  DEPARTMENT  SALARY  JOIN_DATE
+      1      Alice     Smith Engineering 85000.0 2021-01-15
+      2        Bob   Johnson   Marketing 65000.0 2020-07-22
+      3    Charlie     Brown          HR 60000.0 2019-03-10
+      4      Diana     Davis     Finance 90000.0 2022-11-01
+      5      Ethan     Moore Engineering 95000.0 2023-02-17
+[2025-07-02T07:49:15.180+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-02T07:49:15.192+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=print_top_employees_dag, task_id=print_top_5_employees, execution_date=20250702T074910, start_date=20250702T074912, end_date=20250702T074915
+[2025-07-02T07:49:15.223+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-02T07:49:15.244+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

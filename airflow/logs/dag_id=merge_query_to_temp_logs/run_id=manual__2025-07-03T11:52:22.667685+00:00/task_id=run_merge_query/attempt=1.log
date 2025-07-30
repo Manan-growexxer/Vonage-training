@@ -1,0 +1,24 @@
+[2025-07-03T11:52:23.401+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: merge_query_to_temp_logs.run_merge_query manual__2025-07-03T11:52:22.667685+00:00 [queued]>
+[2025-07-03T11:52:23.405+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: merge_query_to_temp_logs.run_merge_query manual__2025-07-03T11:52:22.667685+00:00 [queued]>
+[2025-07-03T11:52:23.405+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-03T11:52:23.413+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): run_merge_query> on 2025-07-03 11:52:22.667685+00:00
+[2025-07-03T11:52:23.417+0000] {standard_task_runner.py:60} INFO - Started process 8852 to run task
+[2025-07-03T11:52:23.419+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'merge_query_to_temp_logs', 'run_merge_query', 'manual__2025-07-03T11:52:22.667685+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/merge_query_dag.py', '--cfg-path', '/tmp/tmp7woo4e4v']
+[2025-07-03T11:52:23.420+0000] {standard_task_runner.py:88} INFO - Job 45: Subtask run_merge_query
+[2025-07-03T11:52:23.448+0000] {task_command.py:423} INFO - Running <TaskInstance: merge_query_to_temp_logs.run_merge_query manual__2025-07-03T11:52:22.667685+00:00 [running]> on host 61fdbbb5a1a9
+[2025-07-03T11:52:23.544+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='merge_query_to_temp_logs' AIRFLOW_CTX_TASK_ID='run_merge_query' AIRFLOW_CTX_EXECUTION_DATE='2025-07-03T11:52:22.667685+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-03T11:52:22.667685+00:00'
+[2025-07-03T11:52:23.548+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/merge_query_dag.py", line 40, in merge_query
+    logger.info(f"\n🚀 Executing Query {i}:\n{q}")
+NameError: name 'logger' is not defined
+[2025-07-03T11:52:23.557+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=merge_query_to_temp_logs, task_id=run_merge_query, execution_date=20250703T115222, start_date=20250703T115223, end_date=20250703T115223
+[2025-07-03T11:52:23.568+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 45 for task run_merge_query (name 'logger' is not defined; 8852)
+[2025-07-03T11:52:23.591+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-03T11:52:23.617+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

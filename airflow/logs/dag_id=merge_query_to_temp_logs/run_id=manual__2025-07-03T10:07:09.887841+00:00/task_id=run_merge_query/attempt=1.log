@@ -1,0 +1,49 @@
+[2025-07-03T10:07:10.852+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: merge_query_to_temp_logs.run_merge_query manual__2025-07-03T10:07:09.887841+00:00 [queued]>
+[2025-07-03T10:07:10.859+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: merge_query_to_temp_logs.run_merge_query manual__2025-07-03T10:07:09.887841+00:00 [queued]>
+[2025-07-03T10:07:10.859+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-03T10:07:10.866+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): run_merge_query> on 2025-07-03 10:07:09.887841+00:00
+[2025-07-03T10:07:10.871+0000] {standard_task_runner.py:60} INFO - Started process 4077 to run task
+[2025-07-03T10:07:10.873+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'merge_query_to_temp_logs', 'run_merge_query', 'manual__2025-07-03T10:07:09.887841+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/merge_query_dag.py', '--cfg-path', '/tmp/tmpf633l22k']
+[2025-07-03T10:07:10.874+0000] {standard_task_runner.py:88} INFO - Job 38: Subtask run_merge_query
+[2025-07-03T10:07:10.902+0000] {task_command.py:423} INFO - Running <TaskInstance: merge_query_to_temp_logs.run_merge_query manual__2025-07-03T10:07:09.887841+00:00 [running]> on host be92b7fd988a
+[2025-07-03T10:07:10.969+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='merge_query_to_temp_logs' AIRFLOW_CTX_TASK_ID='run_merge_query' AIRFLOW_CTX_EXECUTION_DATE='2025-07-03T10:07:09.887841+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-03T10:07:09.887841+00:00'
+[2025-07-03T10:07:10.984+0000] {base.py:83} INFO - Using connection ID 'snowflake_dev_conn' for task execution.
+[2025-07-03T10:07:10.984+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.2.0-26-generic-x86_64-with-glibc2.34
+[2025-07-03T10:07:10.985+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-07-03T10:07:11.903+0000] {cursor.py:1028} INFO - query: [ALTER SESSION SET autocommit=False]
+[2025-07-03T10:07:12.096+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-03T10:07:12.096+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-07-03T10:07:12.097+0000] {sql.py:450} INFO - Running statement: MERGE INTO DEV_DB.DEV_SCHEMA.EMPLOYEE AS target
+USING (
+    SELECT 
+        1 AS EMP_ID, 'John' AS FIRST_NAME, 'Doe' AS LAST_NAME, 'HR' AS DEPARTMENT, 55000.00 AS SALARY, '2024-06-01'::DATE AS JOIN_DATE
+    UNION ALL
+    SELECT 
+        2, 'Jane', 'Smith', 'Finance', 60000.00, '2024-07-01'::DATE
+) AS source
+ON target.EMP_ID = source.EMP_ID
+WHEN MATCHED THEN
+    UPDATE SET
+        target.FIRST_NAME = source.FIRST_NAME,
+        target.LAST_NAME = source.LAST_NAME,
+        target.DEPARTMENT = source.DEPARTMENT,
+        target.SALARY = source.SALARY,
+        target.JOIN_DATE = source.JOIN_DATE
+WHEN NOT MATCHED THEN
+    INSERT (EMP_ID, FIRST_NAME, LAST_NAME, DEPARTMENT, SALARY, JOIN_DATE)
+    VALUES (source.EMP_ID, source.FIRST_NAME, source.LAST_NAME, source.DEPARTMENT, source.SALARY, source.JOIN_DATE);, parameters: None
+[2025-07-03T10:07:12.097+0000] {cursor.py:1028} INFO - query: [MERGE INTO DEV_DB.DEV_SCHEMA.EMPLOYEE AS target USING ( SELECT 1 AS EMP_ID, 'Joh...]
+[2025-07-03T10:07:13.221+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-03T10:07:13.222+0000] {sql.py:459} INFO - Rows affected: 2
+[2025-07-03T10:07:13.222+0000] {snowflake.py:400} INFO - Rows affected: 2
+[2025-07-03T10:07:13.222+0000] {snowflake.py:401} INFO - Snowflake query id: 01bd705f-3201-c14e-000e-50720001e6b2
+[2025-07-03T10:07:13.223+0000] {cursor.py:1028} INFO - query: [COMMIT]
+[2025-07-03T10:07:13.531+0000] {cursor.py:1041} INFO - query execution done
+[2025-07-03T10:07:13.532+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-07-03T10:07:13.532+0000] {connection.py:718} INFO - closed
+[2025-07-03T10:07:13.621+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2025-07-03T10:07:13.713+0000] {merge_query_dag.py:28} INFO - MERGE query executed successfully.
+[2025-07-03T10:07:13.714+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-03T10:07:13.728+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=merge_query_to_temp_logs, task_id=run_merge_query, execution_date=20250703T100709, start_date=20250703T100710, end_date=20250703T100713
+[2025-07-03T10:07:13.781+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-03T10:07:13.813+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

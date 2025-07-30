@@ -1,0 +1,78 @@
+[2025-06-30T05:49:39.088+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: simple_snowflake_dag.log_snowflake_database scheduled__2025-06-29T00:00:00+00:00 [queued]>
+[2025-06-30T05:49:39.092+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: simple_snowflake_dag.log_snowflake_database scheduled__2025-06-29T00:00:00+00:00 [queued]>
+[2025-06-30T05:49:39.092+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-06-30T05:49:39.099+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): log_snowflake_database> on 2025-06-29 00:00:00+00:00
+[2025-06-30T05:49:39.102+0000] {standard_task_runner.py:60} INFO - Started process 692 to run task
+[2025-06-30T05:49:39.104+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'simple_snowflake_dag', 'log_snowflake_database', 'scheduled__2025-06-29T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_simple_dag.py', '--cfg-path', '/tmp/tmpqgq72_wv']
+[2025-06-30T05:49:39.105+0000] {standard_task_runner.py:88} INFO - Job 30: Subtask log_snowflake_database
+[2025-06-30T05:49:39.112+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-30T05:49:39.136+0000] {task_command.py:423} INFO - Running <TaskInstance: simple_snowflake_dag.log_snowflake_database scheduled__2025-06-29T00:00:00+00:00 [running]> on host cb6c74982cc4
+[2025-06-30T05:49:39.187+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='simple_snowflake_dag' AIRFLOW_CTX_TASK_ID='log_snowflake_database' AIRFLOW_CTX_EXECUTION_DATE='2025-06-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-29T00:00:00+00:00'
+[2025-06-30T05:49:39.194+0000] {base.py:83} INFO - Using connection ID 'my_snowflake_conn' for task execution.
+[2025-06-30T05:49:39.194+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.2.0-26-generic-x86_64-with-glibc2.34
+[2025-06-30T05:49:39.194+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-06-30T05:49:40.947+0000] {cursor.py:1028} INFO - query: [SELECT CURRENT_DATABASE();]
+[2025-06-30T05:49:41.057+0000] {cursor.py:1041} INFO - query execution done
+[2025-06-30T05:49:41.058+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-06-30T05:49:41.060+0000] {logging_mixin.py:188} INFO - Current Snowflake database is: AIRFLOW_PRACTICE
+[2025-06-30T05:49:41.060+0000] {connection.py:718} INFO - closed
+[2025-06-30T05:49:41.154+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2025-06-30T05:49:41.255+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-06-30T05:49:41.269+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=simple_snowflake_dag, task_id=log_snowflake_database, execution_date=20250629T000000, start_date=20250630T054939, end_date=20250630T054941
+[2025-06-30T05:49:41.328+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-30T05:49:41.353+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-30T09:24:46.413+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: simple_snowflake_dag.log_snowflake_database scheduled__2025-06-29T00:00:00+00:00 [queued]>
+[2025-06-30T09:24:46.419+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: simple_snowflake_dag.log_snowflake_database scheduled__2025-06-29T00:00:00+00:00 [queued]>
+[2025-06-30T09:24:46.420+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-06-30T09:24:46.427+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): log_snowflake_database> on 2025-06-29 00:00:00+00:00
+[2025-06-30T09:24:46.430+0000] {standard_task_runner.py:60} INFO - Started process 237 to run task
+[2025-06-30T09:24:46.432+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'simple_snowflake_dag', 'log_snowflake_database', 'scheduled__2025-06-29T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_simple_dag.py', '--cfg-path', '/tmp/tmpn_sdjci9']
+[2025-06-30T09:24:46.433+0000] {standard_task_runner.py:88} INFO - Job 3: Subtask log_snowflake_database
+[2025-06-30T09:24:46.442+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-30T09:24:46.474+0000] {task_command.py:423} INFO - Running <TaskInstance: simple_snowflake_dag.log_snowflake_database scheduled__2025-06-29T00:00:00+00:00 [running]> on host 993849a603fc
+[2025-06-30T09:24:46.570+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='simple_snowflake_dag' AIRFLOW_CTX_TASK_ID='log_snowflake_database' AIRFLOW_CTX_EXECUTION_DATE='2025-06-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-29T00:00:00+00:00'
+[2025-06-30T09:24:46.594+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/snowflake_simple_dag.py", line 11, in print_current_database
+    conn = hook.get_conn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 275, in get_conn
+    conn_config = self._get_conn_params()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 183, in _get_conn_params
+    conn = self.get_connection(self.snowflake_conn_id)  # type: ignore[attr-defined]
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 82, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 479, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `snowflake_dev_conn` isn't defined
+[2025-06-30T09:24:46.598+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=simple_snowflake_dag, task_id=log_snowflake_database, execution_date=20250629T000000, start_date=20250630T092446, end_date=20250630T092446
+[2025-06-30T09:24:46.612+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 3 for task log_snowflake_database (The conn_id `snowflake_dev_conn` isn't defined; 237)
+[2025-06-30T09:24:46.644+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-30T09:24:46.669+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-30T10:10:58.048+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: simple_snowflake_dag.log_snowflake_database scheduled__2025-06-29T00:00:00+00:00 [queued]>
+[2025-06-30T10:10:58.054+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: simple_snowflake_dag.log_snowflake_database scheduled__2025-06-29T00:00:00+00:00 [queued]>
+[2025-06-30T10:10:58.054+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-06-30T10:10:58.061+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): log_snowflake_database> on 2025-06-29 00:00:00+00:00
+[2025-06-30T10:10:58.065+0000] {standard_task_runner.py:60} INFO - Started process 297 to run task
+[2025-06-30T10:10:58.067+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'simple_snowflake_dag', 'log_snowflake_database', 'scheduled__2025-06-29T00:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/snowflake_simple_dag.py', '--cfg-path', '/tmp/tmp_amq56me']
+[2025-06-30T10:10:58.068+0000] {standard_task_runner.py:88} INFO - Job 2: Subtask log_snowflake_database
+[2025-06-30T10:10:58.112+0000] {task_command.py:423} INFO - Running <TaskInstance: simple_snowflake_dag.log_snowflake_database scheduled__2025-06-29T00:00:00+00:00 [running]> on host 20a86814d48c
+[2025-06-30T10:10:58.189+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='simple_snowflake_dag' AIRFLOW_CTX_TASK_ID='log_snowflake_database' AIRFLOW_CTX_EXECUTION_DATE='2025-06-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-29T00:00:00+00:00'
+[2025-06-30T10:10:58.199+0000] {base.py:83} INFO - Using connection ID 'snowflake_dev_conn' for task execution.
+[2025-06-30T10:10:58.200+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.2.0-26-generic-x86_64-with-glibc2.34
+[2025-06-30T10:10:58.200+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-06-30T10:11:00.753+0000] {cursor.py:1028} INFO - query: [SELECT CURRENT_DATABASE();]
+[2025-06-30T10:11:00.980+0000] {cursor.py:1041} INFO - query execution done
+[2025-06-30T10:11:00.981+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-06-30T10:11:00.981+0000] {logging_mixin.py:188} INFO - Current Snowflake database is: DEV_DB
+[2025-06-30T10:11:00.982+0000] {connection.py:718} INFO - closed
+[2025-06-30T10:11:01.154+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2025-06-30T10:11:01.285+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-06-30T10:11:01.297+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=simple_snowflake_dag, task_id=log_snowflake_database, execution_date=20250629T000000, start_date=20250630T101058, end_date=20250630T101101
+[2025-06-30T10:11:01.332+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-30T10:11:01.354+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

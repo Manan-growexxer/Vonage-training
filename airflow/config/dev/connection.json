@@ -1,0 +1,16 @@
+[
+  {
+    "conn_id": "snowflake_dev_conn",
+    "conn_type": "snowflake",
+    "login": "DEV_USER",
+    "password": "DevUser@123",
+    "schema": "DEV_SCHEMA",
+    "extra": {
+      "account": "WWWRZOD-ZM46186",
+      "warehouse": "DEV_WH",
+      "database": "DEV_DB",
+      "role": "DEV_ROLE"
+    }
+  }
+]
+

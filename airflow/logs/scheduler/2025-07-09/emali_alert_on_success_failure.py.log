@@ -1,0 +1,740 @@
+[2025-07-09T05:29:10.118+0000] {processor.py:161} INFO - Started process (PID=16672) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:29:10.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:29:10.120+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:29:10.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:29:10.124+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:29:10.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.033 seconds
+[2025-07-09T05:29:41.020+0000] {processor.py:161} INFO - Started process (PID=16744) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:29:41.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:29:41.024+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:29:41.024+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:29:41.029+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:29:41.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.029 seconds
+[2025-07-09T05:30:11.666+0000] {processor.py:161} INFO - Started process (PID=16809) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:30:11.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:30:11.668+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:30:11.667+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:30:11.670+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:30:11.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.017 seconds
+[2025-07-09T05:30:42.317+0000] {processor.py:161} INFO - Started process (PID=16874) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:30:42.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:30:42.321+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:30:42.321+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:30:42.326+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:30:42.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T05:31:13.005+0000] {processor.py:161} INFO - Started process (PID=16939) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:31:13.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:31:13.007+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:31:13.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:31:13.009+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:31:13.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.018 seconds
+[2025-07-09T05:31:43.620+0000] {processor.py:161} INFO - Started process (PID=17004) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:31:43.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:31:43.624+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:31:43.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:31:43.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:31:43.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T05:32:14.280+0000] {processor.py:161} INFO - Started process (PID=17069) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:32:14.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:32:14.282+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:32:14.282+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:32:14.285+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:32:14.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.018 seconds
+[2025-07-09T05:32:44.967+0000] {processor.py:161} INFO - Started process (PID=17134) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:32:44.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:32:44.971+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:32:44.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:32:44.975+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:32:44.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T05:33:15.679+0000] {processor.py:161} INFO - Started process (PID=17199) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:33:15.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:33:15.680+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:33:15.680+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:33:15.683+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:33:15.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T05:33:46.318+0000] {processor.py:161} INFO - Started process (PID=17264) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:33:46.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:33:46.322+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:33:46.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:33:46.325+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:33:46.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T05:34:17.045+0000] {processor.py:161} INFO - Started process (PID=17329) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:34:17.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:34:17.046+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:34:17.046+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:34:17.049+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:34:17.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.018 seconds
+[2025-07-09T05:34:47.696+0000] {processor.py:161} INFO - Started process (PID=17394) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:34:47.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:34:47.701+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:34:47.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:34:47.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:34:47.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.028 seconds
+[2025-07-09T05:35:18.334+0000] {processor.py:161} INFO - Started process (PID=17459) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:35:18.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:35:18.335+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:35:18.335+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:35:18.337+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:35:18.349+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.018 seconds
+[2025-07-09T05:35:48.958+0000] {processor.py:161} INFO - Started process (PID=17524) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:35:48.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:35:48.962+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:35:48.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:35:48.966+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:35:48.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.029 seconds
+[2025-07-09T05:36:19.632+0000] {processor.py:161} INFO - Started process (PID=17589) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:36:19.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:36:19.634+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:36:19.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:36:19.638+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:36:19.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.024 seconds
+[2025-07-09T05:36:50.262+0000] {processor.py:161} INFO - Started process (PID=17654) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:36:50.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:36:50.266+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:36:50.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:36:50.269+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:36:50.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T05:37:20.879+0000] {processor.py:161} INFO - Started process (PID=17719) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:37:20.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:37:20.882+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:37:20.881+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:37:20.886+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:37:20.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T05:37:51.512+0000] {processor.py:161} INFO - Started process (PID=17784) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:37:51.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:37:51.517+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:37:51.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:37:51.521+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:37:51.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T05:38:22.123+0000] {processor.py:161} INFO - Started process (PID=17849) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:38:22.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:38:22.125+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:38:22.124+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:38:22.127+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:38:22.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T05:38:52.741+0000] {processor.py:161} INFO - Started process (PID=17914) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:38:52.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:38:52.744+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:38:52.743+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:38:52.746+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:38:52.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.020 seconds
+[2025-07-09T05:39:23.411+0000] {processor.py:161} INFO - Started process (PID=17979) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:39:23.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:39:23.412+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:39:23.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:39:23.415+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:39:23.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T05:39:54.051+0000] {processor.py:161} INFO - Started process (PID=18044) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:39:54.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:39:54.055+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:39:54.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:39:54.058+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:39:54.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T05:40:24.663+0000] {processor.py:161} INFO - Started process (PID=18109) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:40:24.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:40:24.664+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:40:24.663+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:40:24.665+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:40:24.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.013 seconds
+[2025-07-09T05:40:55.268+0000] {processor.py:161} INFO - Started process (PID=18174) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:40:55.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:40:55.271+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:40:55.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:40:55.274+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:40:55.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.019 seconds
+[2025-07-09T05:41:25.878+0000] {processor.py:161} INFO - Started process (PID=18239) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:41:25.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:41:25.879+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:41:25.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:41:25.882+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:41:25.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.020 seconds
+[2025-07-09T05:41:56.486+0000] {processor.py:161} INFO - Started process (PID=18304) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:41:56.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:41:56.489+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:41:56.488+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:41:56.492+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:41:56.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.020 seconds
+[2025-07-09T05:42:27.113+0000] {processor.py:161} INFO - Started process (PID=18369) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:42:27.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:42:27.115+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:42:27.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:42:27.119+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:42:27.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.025 seconds
+[2025-07-09T05:42:57.916+0000] {processor.py:161} INFO - Started process (PID=18444) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:42:57.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:42:57.920+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:42:57.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:42:57.924+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:42:57.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.025 seconds
+[2025-07-09T05:43:28.660+0000] {processor.py:161} INFO - Started process (PID=18514) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:43:28.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:43:28.662+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:43:28.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:43:28.664+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:43:28.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.017 seconds
+[2025-07-09T05:43:59.358+0000] {processor.py:161} INFO - Started process (PID=18579) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:43:59.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:43:59.361+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:43:59.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:43:59.364+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:43:59.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T05:44:30.050+0000] {processor.py:161} INFO - Started process (PID=18644) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:44:30.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:44:30.053+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:44:30.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:44:30.057+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:44:30.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T05:45:00.686+0000] {processor.py:161} INFO - Started process (PID=18709) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:45:00.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:45:00.692+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:45:00.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:45:00.697+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:45:00.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.039 seconds
+[2025-07-09T05:45:31.548+0000] {processor.py:161} INFO - Started process (PID=18778) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:45:31.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:45:31.550+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:45:31.550+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:45:31.553+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:45:31.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T05:46:02.195+0000] {processor.py:161} INFO - Started process (PID=18843) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:46:02.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:46:02.198+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:46:02.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:46:02.202+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:46:02.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T05:46:32.814+0000] {processor.py:161} INFO - Started process (PID=18908) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:46:32.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:46:32.816+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:46:32.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:46:32.818+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:46:32.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.019 seconds
+[2025-07-09T05:47:03.449+0000] {processor.py:161} INFO - Started process (PID=18973) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:47:03.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:47:03.452+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:47:03.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:47:03.455+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:47:03.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.020 seconds
+[2025-07-09T05:47:34.216+0000] {processor.py:161} INFO - Started process (PID=19043) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:47:34.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:47:34.218+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:47:34.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:47:34.220+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:47:34.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.019 seconds
+[2025-07-09T05:48:04.825+0000] {processor.py:161} INFO - Started process (PID=19108) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:48:04.828+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:48:04.828+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:48:04.828+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:48:04.831+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:48:04.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T05:48:35.103+0000] {processor.py:161} INFO - Started process (PID=19174) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:48:35.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:48:35.104+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:48:35.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:48:35.107+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:48:35.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.018 seconds
+[2025-07-09T05:49:16.615+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:49:16.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:49:16.618+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:49:16.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:49:16.620+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:49:16.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.018 seconds
+[2025-07-09T05:49:47.635+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:49:47.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:49:47.637+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:49:47.637+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:49:47.639+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:49:47.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.017 seconds
+[2025-07-09T05:50:18.459+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:50:18.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:50:18.461+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:50:18.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:50:18.463+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:50:18.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T05:50:49.140+0000] {processor.py:161} INFO - Started process (PID=416) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:50:49.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:50:49.142+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:50:49.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:50:49.143+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:50:49.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.018 seconds
+[2025-07-09T05:51:19.831+0000] {processor.py:161} INFO - Started process (PID=483) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:51:19.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:51:19.833+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:51:19.833+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:51:19.835+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:51:19.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.015 seconds
+[2025-07-09T05:51:50.537+0000] {processor.py:161} INFO - Started process (PID=552) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:51:50.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:51:50.539+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:51:50.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:51:50.540+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:51:50.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.012 seconds
+[2025-07-09T05:52:21.195+0000] {processor.py:161} INFO - Started process (PID=617) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:52:21.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:52:21.198+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:52:21.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:52:21.200+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:52:21.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.018 seconds
+[2025-07-09T05:52:27.521+0000] {processor.py:161} INFO - Started process (PID=662) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:52:27.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:52:27.526+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:52:27.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:52:27.530+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:52:27.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.025 seconds
+[2025-07-09T05:52:58.167+0000] {processor.py:161} INFO - Started process (PID=731) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:52:58.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:52:58.170+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:52:58.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:52:58.173+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:52:58.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T05:53:28.885+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:53:28.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:53:28.888+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:53:28.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:53:28.890+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:53:28.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.018 seconds
+[2025-07-09T05:53:59.530+0000] {processor.py:161} INFO - Started process (PID=866) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:53:59.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:53:59.533+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:53:59.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:53:59.537+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:53:59.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.034 seconds
+[2025-07-09T05:54:30.253+0000] {processor.py:161} INFO - Started process (PID=931) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:54:30.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:54:30.257+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:54:30.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:54:30.260+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:54:30.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T05:55:00.884+0000] {processor.py:161} INFO - Started process (PID=996) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:55:00.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:55:00.886+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:55:00.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:55:00.890+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:55:00.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T05:55:31.507+0000] {processor.py:161} INFO - Started process (PID=1061) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:55:31.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:55:31.511+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:55:31.510+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:55:31.513+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:55:31.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.019 seconds
+[2025-07-09T05:56:02.197+0000] {processor.py:161} INFO - Started process (PID=1126) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:56:02.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:56:02.200+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:56:02.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:56:02.203+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:56:02.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T05:56:32.846+0000] {processor.py:161} INFO - Started process (PID=1191) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:56:32.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:56:32.851+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:56:32.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:56:32.854+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:56:32.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.029 seconds
+[2025-07-09T05:57:03.469+0000] {processor.py:161} INFO - Started process (PID=1256) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:57:03.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:57:03.471+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:57:03.471+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:57:03.475+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:57:03.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T05:57:34.138+0000] {processor.py:161} INFO - Started process (PID=1321) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:57:34.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:57:34.142+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:57:34.142+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:57:34.145+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:57:34.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T05:58:04.749+0000] {processor.py:161} INFO - Started process (PID=1386) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:58:04.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:58:04.754+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:58:04.753+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:58:04.757+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:58:04.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.034 seconds
+[2025-07-09T05:58:35.457+0000] {processor.py:161} INFO - Started process (PID=1451) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:58:35.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:58:35.462+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:58:35.462+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:58:35.466+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:58:35.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.030 seconds
+[2025-07-09T05:59:06.171+0000] {processor.py:161} INFO - Started process (PID=1516) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:59:06.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:59:06.173+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:59:06.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:59:06.175+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:59:06.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.017 seconds
+[2025-07-09T05:59:36.849+0000] {processor.py:161} INFO - Started process (PID=1581) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:59:36.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T05:59:36.854+0000] {logging_mixin.py:188} INFO - [2025-07-09T05:59:36.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:59:36.856+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T05:59:36.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.020 seconds
+[2025-07-09T06:00:07.567+0000] {processor.py:161} INFO - Started process (PID=1646) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:00:07.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:00:07.571+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:00:07.570+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:00:07.574+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:00:07.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.028 seconds
+[2025-07-09T06:00:38.226+0000] {processor.py:161} INFO - Started process (PID=1711) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:00:38.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:00:38.232+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:00:38.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:00:38.236+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:00:38.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.032 seconds
+[2025-07-09T06:01:08.927+0000] {processor.py:161} INFO - Started process (PID=1776) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:01:08.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:01:08.930+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:01:08.930+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:01:08.933+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:01:08.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.027 seconds
+[2025-07-09T06:01:39.600+0000] {processor.py:161} INFO - Started process (PID=1841) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:01:39.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:01:39.606+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:01:39.606+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:01:39.610+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:01:39.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.033 seconds
+[2025-07-09T06:02:10.338+0000] {processor.py:161} INFO - Started process (PID=1906) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:02:10.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:02:10.341+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:02:10.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:02:10.343+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:02:10.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.020 seconds
+[2025-07-09T06:02:41.020+0000] {processor.py:161} INFO - Started process (PID=1971) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:02:41.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:02:41.026+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:02:41.025+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:02:41.030+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:02:41.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.028 seconds
+[2025-07-09T06:03:11.656+0000] {processor.py:161} INFO - Started process (PID=2036) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:03:11.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:03:11.658+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:03:11.658+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:03:11.660+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:03:11.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T06:03:42.271+0000] {processor.py:161} INFO - Started process (PID=2101) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:03:42.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:03:42.276+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:03:42.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:03:42.280+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:03:42.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.032 seconds
+[2025-07-09T06:04:12.914+0000] {processor.py:161} INFO - Started process (PID=2166) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:04:12.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:04:12.918+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:04:12.917+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:04:12.922+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:04:12.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T06:04:43.611+0000] {processor.py:161} INFO - Started process (PID=2231) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:04:43.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:04:43.618+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:04:43.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:04:43.622+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:04:43.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.029 seconds
+[2025-07-09T06:05:14.270+0000] {processor.py:161} INFO - Started process (PID=2296) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:05:14.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:05:14.272+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:05:14.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:05:14.274+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:05:14.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.020 seconds
+[2025-07-09T06:05:44.945+0000] {processor.py:161} INFO - Started process (PID=2361) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:05:44.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:05:44.950+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:05:44.950+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:05:44.953+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:05:44.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.029 seconds
+[2025-07-09T06:06:15.608+0000] {processor.py:161} INFO - Started process (PID=2426) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:06:15.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:06:15.612+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:06:15.612+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:06:15.616+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:06:15.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.038 seconds
+[2025-07-09T06:06:46.308+0000] {processor.py:161} INFO - Started process (PID=2491) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:06:46.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:06:46.310+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:06:46.309+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:06:46.312+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:06:46.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.014 seconds
+[2025-07-09T06:07:16.957+0000] {processor.py:161} INFO - Started process (PID=2556) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:07:16.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:07:16.961+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:07:16.961+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:07:16.964+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:07:16.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T06:07:47.598+0000] {processor.py:161} INFO - Started process (PID=2621) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:07:47.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:07:47.602+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:07:47.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:07:47.605+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:07:47.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T06:08:18.257+0000] {processor.py:161} INFO - Started process (PID=2686) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:08:18.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:08:18.260+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:08:18.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:08:18.263+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:08:18.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T06:08:49.014+0000] {processor.py:161} INFO - Started process (PID=2751) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:08:49.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:08:49.018+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:08:49.018+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:08:49.021+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:08:49.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T06:09:19.695+0000] {processor.py:161} INFO - Started process (PID=2816) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:09:19.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:09:19.698+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:09:19.698+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:09:19.702+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:09:19.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T06:09:50.409+0000] {processor.py:161} INFO - Started process (PID=2881) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:09:50.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:09:50.412+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:09:50.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:09:50.415+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:09:50.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.020 seconds
+[2025-07-09T06:10:21.083+0000] {processor.py:161} INFO - Started process (PID=2946) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:10:21.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:10:21.088+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:10:21.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:10:21.092+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:10:21.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.038 seconds
+[2025-07-09T06:10:51.797+0000] {processor.py:161} INFO - Started process (PID=3011) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:10:51.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:10:51.803+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:10:51.802+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:10:51.807+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:10:51.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.037 seconds
+[2025-07-09T06:11:22.514+0000] {processor.py:161} INFO - Started process (PID=3076) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:11:22.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:11:22.517+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:11:22.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:11:22.519+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:11:22.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T06:11:53.252+0000] {processor.py:161} INFO - Started process (PID=3141) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:11:53.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:11:53.257+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:11:53.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:11:53.260+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:11:53.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.024 seconds
+[2025-07-09T06:12:23.964+0000] {processor.py:161} INFO - Started process (PID=3206) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:12:23.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:12:23.967+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:12:23.967+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:12:23.970+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:12:23.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.020 seconds
+[2025-07-09T06:12:54.598+0000] {processor.py:161} INFO - Started process (PID=3271) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:12:54.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:12:54.605+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:12:54.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:12:54.609+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:12:54.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.029 seconds
+[2025-07-09T06:13:25.260+0000] {processor.py:161} INFO - Started process (PID=3336) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:13:25.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:13:25.263+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:13:25.263+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:13:25.267+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:13:25.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T06:13:55.905+0000] {processor.py:161} INFO - Started process (PID=3401) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:13:55.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:13:55.910+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:13:55.910+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:13:55.913+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:13:55.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.025 seconds
+[2025-07-09T06:14:26.614+0000] {processor.py:161} INFO - Started process (PID=3466) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:14:26.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:14:26.617+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:14:26.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:14:26.620+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:14:26.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.024 seconds
+[2025-07-09T06:14:57.224+0000] {processor.py:161} INFO - Started process (PID=3531) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:14:57.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:14:57.227+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:14:57.227+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:14:57.229+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:14:57.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.017 seconds
+[2025-07-09T06:15:27.891+0000] {processor.py:161} INFO - Started process (PID=3596) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:15:27.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:15:27.894+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:15:27.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:15:27.897+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:15:27.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T06:15:58.533+0000] {processor.py:161} INFO - Started process (PID=3661) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:15:58.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:15:58.539+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:15:58.539+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:15:58.542+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:15:58.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T06:16:29.148+0000] {processor.py:161} INFO - Started process (PID=3726) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:16:29.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:16:29.151+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:16:29.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:16:29.155+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:16:29.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.027 seconds
+[2025-07-09T06:16:59.919+0000] {processor.py:161} INFO - Started process (PID=3791) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:16:59.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:16:59.925+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:16:59.925+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:16:59.930+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:16:59.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.034 seconds
+[2025-07-09T06:17:30.662+0000] {processor.py:161} INFO - Started process (PID=3856) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:17:30.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:17:30.665+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:17:30.664+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:17:30.667+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:17:30.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T06:18:01.439+0000] {processor.py:161} INFO - Started process (PID=3921) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:18:01.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:18:01.443+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:18:01.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:18:01.445+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:18:01.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.025 seconds
+[2025-07-09T06:18:32.127+0000] {processor.py:161} INFO - Started process (PID=3986) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:18:32.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:18:32.130+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:18:32.130+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:18:32.133+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:18:32.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T06:19:02.721+0000] {processor.py:161} INFO - Started process (PID=4051) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:19:02.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:19:02.726+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:19:02.725+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:19:02.728+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:19:02.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T06:19:33.361+0000] {processor.py:161} INFO - Started process (PID=4116) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:19:33.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:19:33.364+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:19:33.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:19:33.367+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:19:33.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.024 seconds
+[2025-07-09T06:20:04.047+0000] {processor.py:161} INFO - Started process (PID=4181) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:20:04.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:20:04.052+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:20:04.051+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:20:04.055+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:20:04.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T06:20:34.699+0000] {processor.py:161} INFO - Started process (PID=4246) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:20:34.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:20:34.702+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:20:34.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:20:34.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:20:34.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.018 seconds
+[2025-07-09T06:21:05.343+0000] {processor.py:161} INFO - Started process (PID=4311) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:21:05.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:21:05.347+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:21:05.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:21:05.351+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:21:05.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.025 seconds
+[2025-07-09T06:21:35.997+0000] {processor.py:161} INFO - Started process (PID=4376) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:21:35.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:21:35.999+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:21:35.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:21:36.002+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:21:36.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T06:22:06.623+0000] {processor.py:161} INFO - Started process (PID=4441) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:22:06.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:22:06.625+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:22:06.625+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:22:06.627+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:22:06.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.015 seconds
+[2025-07-09T06:22:37.246+0000] {processor.py:161} INFO - Started process (PID=4506) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:22:37.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:22:37.249+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:22:37.249+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:22:37.252+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:22:37.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T06:23:07.892+0000] {processor.py:161} INFO - Started process (PID=4571) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:23:07.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:23:07.897+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:23:07.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:23:07.900+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:23:07.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.025 seconds
+[2025-07-09T06:23:38.498+0000] {processor.py:161} INFO - Started process (PID=4636) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:23:38.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:23:38.502+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:23:38.502+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:23:38.505+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:23:38.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.025 seconds
+[2025-07-09T06:24:09.154+0000] {processor.py:161} INFO - Started process (PID=4701) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:24:09.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:24:09.159+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:24:09.158+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:24:09.162+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:24:09.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T06:24:39.763+0000] {processor.py:161} INFO - Started process (PID=4766) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:24:39.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:24:39.766+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:24:39.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:24:39.769+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:24:39.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.020 seconds
+[2025-07-09T06:25:10.382+0000] {processor.py:161} INFO - Started process (PID=4831) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:25:10.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:25:10.387+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:25:10.387+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:25:10.389+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:25:10.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.019 seconds
+[2025-07-09T06:25:41.049+0000] {processor.py:161} INFO - Started process (PID=4896) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:25:41.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:25:41.054+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:25:41.053+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:25:41.057+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:25:41.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.030 seconds
+[2025-07-09T06:26:11.656+0000] {processor.py:161} INFO - Started process (PID=4961) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:26:11.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:26:11.658+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:26:11.658+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:26:11.660+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:26:11.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.016 seconds
+[2025-07-09T06:26:42.327+0000] {processor.py:161} INFO - Started process (PID=5026) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:26:42.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:26:42.330+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:26:42.329+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:26:42.332+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:26:42.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.020 seconds
+[2025-07-09T06:27:12.912+0000] {processor.py:161} INFO - Started process (PID=5091) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:27:12.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:27:12.915+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:27:12.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:27:12.917+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:27:12.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T06:27:43.571+0000] {processor.py:161} INFO - Started process (PID=5156) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:27:43.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:27:43.575+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:27:43.574+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:27:43.578+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:27:43.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T06:28:14.204+0000] {processor.py:161} INFO - Started process (PID=5221) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:28:14.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:28:14.208+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:28:14.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:28:14.212+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:28:14.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.039 seconds
+[2025-07-09T06:28:44.868+0000] {processor.py:161} INFO - Started process (PID=5286) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:28:44.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:28:44.873+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:28:44.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:28:44.876+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:28:44.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.035 seconds
+[2025-07-09T06:29:15.555+0000] {processor.py:161} INFO - Started process (PID=5351) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:29:15.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:29:15.558+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:29:15.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:29:15.560+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:29:15.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.024 seconds
+[2025-07-09T06:29:46.146+0000] {processor.py:161} INFO - Started process (PID=5416) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:29:46.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:29:46.151+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:29:46.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:29:46.154+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:29:46.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T06:30:16.798+0000] {processor.py:161} INFO - Started process (PID=5481) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:30:16.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:30:16.800+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:30:16.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:30:16.802+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:30:16.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T06:30:47.494+0000] {processor.py:161} INFO - Started process (PID=5546) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:30:47.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:30:47.499+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:30:47.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:30:47.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:30:47.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.024 seconds
+[2025-07-09T06:31:18.099+0000] {processor.py:161} INFO - Started process (PID=5611) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:31:18.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:31:18.101+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:31:18.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:31:18.105+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:31:18.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T06:31:48.720+0000] {processor.py:161} INFO - Started process (PID=5676) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:31:48.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:31:48.726+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:31:48.725+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:31:48.729+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:31:48.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.030 seconds
+[2025-07-09T06:32:19.389+0000] {processor.py:161} INFO - Started process (PID=5741) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:32:19.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:32:19.392+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:32:19.392+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:32:19.395+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:32:19.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.025 seconds
+[2025-07-09T06:32:50.053+0000] {processor.py:161} INFO - Started process (PID=5806) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:32:50.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:32:50.059+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:32:50.059+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:32:50.063+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:32:50.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.030 seconds
+[2025-07-09T06:33:20.719+0000] {processor.py:161} INFO - Started process (PID=5871) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:33:20.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:33:20.721+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:33:20.720+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:33:20.722+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:33:20.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T06:33:51.374+0000] {processor.py:161} INFO - Started process (PID=5936) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:33:51.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:33:51.380+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:33:51.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:33:51.383+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:33:51.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.028 seconds
+[2025-07-09T06:34:22.021+0000] {processor.py:161} INFO - Started process (PID=6001) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:34:22.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:34:22.023+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:34:22.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:34:22.026+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:34:22.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T06:34:52.656+0000] {processor.py:161} INFO - Started process (PID=6066) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:34:52.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:34:52.660+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:34:52.660+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:34:52.664+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:34:52.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.028 seconds
+[2025-07-09T06:35:23.277+0000] {processor.py:161} INFO - Started process (PID=6131) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:35:23.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:35:23.280+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:35:23.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:35:23.283+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:35:23.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T06:35:53.949+0000] {processor.py:161} INFO - Started process (PID=6196) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:35:53.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:35:53.954+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:35:53.953+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:35:53.957+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:35:53.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.028 seconds
+[2025-07-09T06:36:24.660+0000] {processor.py:161} INFO - Started process (PID=6261) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:36:24.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:36:24.663+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:36:24.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:36:24.665+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:36:24.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.018 seconds
+[2025-07-09T06:36:55.333+0000] {processor.py:161} INFO - Started process (PID=6326) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:36:55.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:36:55.338+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:36:55.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:36:55.341+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:36:55.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.028 seconds
+[2025-07-09T06:37:25.982+0000] {processor.py:161} INFO - Started process (PID=6391) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:37:25.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:37:25.986+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:37:25.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:37:25.988+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:37:26.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.021 seconds
+[2025-07-09T06:37:56.616+0000] {processor.py:161} INFO - Started process (PID=6456) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:37:56.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:37:56.620+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:37:56.620+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:37:56.623+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:37:56.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.027 seconds
+[2025-07-09T06:38:27.250+0000] {processor.py:161} INFO - Started process (PID=6521) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:38:27.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:38:27.254+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:38:27.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:38:27.259+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:38:27.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.031 seconds
+[2025-07-09T06:38:57.882+0000] {processor.py:161} INFO - Started process (PID=6586) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:38:57.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:38:57.887+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:38:57.887+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:38:57.890+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:38:57.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.027 seconds
+[2025-07-09T06:39:28.594+0000] {processor.py:161} INFO - Started process (PID=6651) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:39:28.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:39:28.597+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:39:28.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:39:28.600+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:39:28.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.025 seconds
+[2025-07-09T06:39:59.269+0000] {processor.py:161} INFO - Started process (PID=6716) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:39:59.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:39:59.273+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:39:59.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:39:59.277+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:39:59.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.030 seconds
+[2025-07-09T06:40:29.953+0000] {processor.py:161} INFO - Started process (PID=6781) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:40:29.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:40:29.956+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:40:29.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:40:29.959+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:40:29.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.022 seconds
+[2025-07-09T06:41:00.597+0000] {processor.py:161} INFO - Started process (PID=6846) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:41:00.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:41:00.604+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:41:00.604+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:41:00.607+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:41:00.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.030 seconds
+[2025-07-09T06:41:31.310+0000] {processor.py:161} INFO - Started process (PID=6911) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:41:31.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:41:31.313+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:41:31.313+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:41:31.316+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:41:31.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.027 seconds
+[2025-07-09T06:42:01.967+0000] {processor.py:161} INFO - Started process (PID=6976) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:42:01.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:42:01.973+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:42:01.972+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:42:01.976+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:42:01.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.029 seconds
+[2025-07-09T06:42:32.564+0000] {processor.py:161} INFO - Started process (PID=7041) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:42:32.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:42:32.567+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:42:32.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:42:32.570+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:42:32.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T06:43:03.179+0000] {processor.py:161} INFO - Started process (PID=7106) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:43:03.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:43:03.184+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:43:03.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:43:03.187+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:43:03.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.023 seconds
+[2025-07-09T06:43:33.776+0000] {processor.py:161} INFO - Started process (PID=7171) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:43:33.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:43:33.781+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:43:33.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:43:33.783+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:43:33.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.026 seconds
+[2025-07-09T06:44:04.458+0000] {processor.py:161} INFO - Started process (PID=7236) to work on /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:44:04.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/emali_alert_on_success_failure.py for tasks to queue
+[2025-07-09T06:44:04.463+0000] {logging_mixin.py:188} INFO - [2025-07-09T06:44:04.462+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:44:04.466+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/emali_alert_on_success_failure.py
+[2025-07-09T06:44:04.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/emali_alert_on_success_failure.py took 0.028 seconds

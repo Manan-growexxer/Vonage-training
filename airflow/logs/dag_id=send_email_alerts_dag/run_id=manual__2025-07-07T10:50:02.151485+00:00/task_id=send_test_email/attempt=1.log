@@ -1,0 +1,15 @@
+[2025-07-07T10:50:02.583+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: send_email_alerts_dag.send_test_email manual__2025-07-07T10:50:02.151485+00:00 [queued]>
+[2025-07-07T10:50:02.592+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: send_email_alerts_dag.send_test_email manual__2025-07-07T10:50:02.151485+00:00 [queued]>
+[2025-07-07T10:50:02.592+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-07T10:50:02.604+0000] {taskinstance.py:2191} INFO - Executing <Task(EmailOperator): send_test_email> on 2025-07-07 10:50:02.151485+00:00
+[2025-07-07T10:50:02.608+0000] {standard_task_runner.py:60} INFO - Started process 1575 to run task
+[2025-07-07T10:50:02.610+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'send_email_alerts_dag', 'send_test_email', 'manual__2025-07-07T10:50:02.151485+00:00', '--job-id', '85', '--raw', '--subdir', 'DAGS_FOLDER/emali_alert_dag.py', '--cfg-path', '/tmp/tmp6fjzcwba']
+[2025-07-07T10:50:02.611+0000] {standard_task_runner.py:88} INFO - Job 85: Subtask send_test_email
+[2025-07-07T10:50:02.649+0000] {task_command.py:423} INFO - Running <TaskInstance: send_email_alerts_dag.send_test_email manual__2025-07-07T10:50:02.151485+00:00 [running]> on host 4f2600503f6f
+[2025-07-07T10:50:02.715+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='manan.gupta@growexx.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='send_email_alerts_dag' AIRFLOW_CTX_TASK_ID='send_test_email' AIRFLOW_CTX_EXECUTION_DATE='2025-07-07T10:50:02.151485+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-07T10:50:02.151485+00:00'
+[2025-07-07T10:50:02.722+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2025-07-07T10:50:02.723+0000] {email.py:270} INFO - Email alerting: attempt 1
+[2025-07-07T10:50:03.571+0000] {email.py:281} INFO - Sent an alert email to ['guptamanan567@gmail.com']
+[2025-07-07T10:50:03.979+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=send_email_alerts_dag, task_id=send_test_email, execution_date=20250707T105002, start_date=20250707T105002, end_date=20250707T105003
+[2025-07-07T10:50:04.029+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-07T10:50:04.054+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

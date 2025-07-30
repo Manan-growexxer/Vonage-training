@@ -1,0 +1,52 @@
+[2025-07-08T11:00:29.033+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Attandance_upload_file_to_s3_dag.upload_sql_to_s3 manual__2025-07-08T11:00:27.753890+00:00 [queued]>
+[2025-07-08T11:00:29.045+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Attandance_upload_file_to_s3_dag.upload_sql_to_s3 manual__2025-07-08T11:00:27.753890+00:00 [queued]>
+[2025-07-08T11:00:29.045+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-08T11:00:29.056+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): upload_sql_to_s3> on 2025-07-08 11:00:27.753890+00:00
+[2025-07-08T11:00:29.060+0000] {standard_task_runner.py:60} INFO - Started process 32876 to run task
+[2025-07-08T11:00:29.062+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Attandance_upload_file_to_s3_dag', 'upload_sql_to_s3', 'manual__2025-07-08T11:00:27.753890+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/store_file_into_aws.py', '--cfg-path', '/tmp/tmpt8q38zap']
+[2025-07-08T11:00:29.063+0000] {standard_task_runner.py:88} INFO - Job 101: Subtask upload_sql_to_s3
+[2025-07-08T11:00:29.101+0000] {task_command.py:423} INFO - Running <TaskInstance: Attandance_upload_file_to_s3_dag.upload_sql_to_s3 manual__2025-07-08T11:00:27.753890+00:00 [running]> on host e47d9e9e397c
+[2025-07-08T11:00:29.175+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='manan.gupta@growexx.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Attandance_upload_file_to_s3_dag' AIRFLOW_CTX_TASK_ID='upload_sql_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2025-07-08T11:00:27.753890+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-08T11:00:27.753890+00:00'
+[2025-07-08T11:00:30.372+0000] {store_file_into_aws.py:40} ERROR - AWS credentials not found or invalid
+[2025-07-08T11:00:30.373+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/boto3/s3/transfer.py", line 371, in upload_file
+    future.result()
+  File "/home/airflow/.local/lib/python3.8/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+  File "/home/airflow/.local/lib/python3.8/site-packages/s3transfer/futures.py", line 266, in result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/s3transfer/tasks.py", line 139, in __call__
+    return self._execute_main(kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/s3transfer/tasks.py", line 162, in _execute_main
+    return_value = self._main(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/s3transfer/upload.py", line 764, in _main
+    client.put_object(Bucket=bucket, Key=key, Body=body, **extra_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/client.py", line 553, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/client.py", line 1009, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.NoSuchBucket: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/store_file_into_aws.py", line 41, in upload_to_s3
+    raise e
+  File "/opt/airflow/dags/store_file_into_aws.py", line 37, in upload_to_s3
+    s3_client.upload_file(local_file_path, bucket_name, object_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/boto3/s3/inject.py", line 145, in upload_file
+    return transfer.upload_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/boto3/s3/transfer.py", line 377, in upload_file
+    raise S3UploadFailedError(
+boto3.exceptions.S3UploadFailedError: Failed to upload /opt/***/scripts/Titanic-Dataset.csv to vonage-titanic-buckt/Titanic-Dataset.csv: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+[2025-07-08T11:00:30.386+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=Attandance_upload_file_to_s3_dag, task_id=upload_sql_to_s3, execution_date=20250708T110027, start_date=20250708T110029, end_date=20250708T110030
+[2025-07-08T11:00:30.405+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 101 for task upload_sql_to_s3 (Failed to upload /opt/***/scripts/Titanic-Dataset.csv to vonage-titanic-buckt/Titanic-Dataset.csv: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist; 32876)
+[2025-07-08T11:00:30.440+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-08T11:00:30.470+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

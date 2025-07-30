@@ -1,0 +1,14 @@
+[2025-07-07T10:43:50.713+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: upload_file_to_s3_dag.upload_sql_to_s3 manual__2025-07-07T10:43:50.094160+00:00 [queued]>
+[2025-07-07T10:43:50.729+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: upload_file_to_s3_dag.upload_sql_to_s3 manual__2025-07-07T10:43:50.094160+00:00 [queued]>
+[2025-07-07T10:43:50.729+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-07T10:43:50.748+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): upload_sql_to_s3> on 2025-07-07 10:43:50.094160+00:00
+[2025-07-07T10:43:50.755+0000] {standard_task_runner.py:60} INFO - Started process 851 to run task
+[2025-07-07T10:43:50.757+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'upload_file_to_s3_dag', 'upload_sql_to_s3', 'manual__2025-07-07T10:43:50.094160+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/store_file_into_aws.py', '--cfg-path', '/tmp/tmpwqf9iebs']
+[2025-07-07T10:43:50.758+0000] {standard_task_runner.py:88} INFO - Job 84: Subtask upload_sql_to_s3
+[2025-07-07T10:43:50.792+0000] {task_command.py:423} INFO - Running <TaskInstance: upload_file_to_s3_dag.upload_sql_to_s3 manual__2025-07-07T10:43:50.094160+00:00 [running]> on host 4f2600503f6f
+[2025-07-07T10:43:50.841+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='upload_file_to_s3_dag' AIRFLOW_CTX_TASK_ID='upload_sql_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2025-07-07T10:43:50.094160+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-07T10:43:50.094160+00:00'
+[2025-07-07T10:43:52.486+0000] {store_file_into_aws.py:68} INFO - File uploaded to s3://manan-***/data/merge.sql
+[2025-07-07T10:43:52.489+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-07T10:43:52.503+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=upload_file_to_s3_dag, task_id=upload_sql_to_s3, execution_date=20250707T104350, start_date=20250707T104350, end_date=20250707T104352
+[2025-07-07T10:43:52.538+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-07T10:43:52.558+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
